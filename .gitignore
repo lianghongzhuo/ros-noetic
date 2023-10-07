@@ -4,3 +4,10 @@ recipes/
 *.sh
 *.json
 .DS_Store
+activate.ps1
+deactivate.ps1
+vinca
+boa
+vinca_10
+boa_10
+make_patch

@@ -1,13 +1,7 @@
-assimp:
-  - 5.2.5
-hdf5:
-  - 1.12.2
 gazebo:
   - '11'
-libpqxx:
-  - 6
 numpy:
-  - 1.20
+  - 1.24
 pcl:
   - 1.12.1
 ogre:
@@ -16,7 +10,12 @@ qt:
   - 5.15
 qt-main:
   - 5.15
-  
+libopencv:
+  - 4.7
+graphviz:
+  - 7.0
+ffmpeg:
+  - 5.1.2
 cdt_name:  # [linux]
   - cos7   # [linux]
 
@@ -25,7 +24,7 @@ setuptools:  # [win]
   - 61.0.0  # [win]
 
 python:
-  - 3.9.* *_cpython
+  - 3.11
 python_impl:
   - cpython
 
