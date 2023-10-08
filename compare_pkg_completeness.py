@@ -90,11 +90,12 @@ for name, pkg in availability.items():
     versions = set()
     for arch in archs:
         if pkg.get(arch):
-            row.append(":heavy_check_mark: { data-sort='1' }")
+            # row.append(":heavy_check_mark: { data-sort='1' }")
+            row.append(":heavy_check_mark:")
             versions |= pkg[arch]
             num_pkgs_per_arch[arch] = num_pkgs_per_arch[arch] + 1
         else:
-            row.append(":x: { data-sort='0' }")
+            row.append(":x:")
 
     if versions:
         row.append(', '.join(sorted(versions)))

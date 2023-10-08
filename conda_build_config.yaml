@@ -3,7 +3,7 @@ gazebo:
 numpy:
   - 1.24
 pcl:
-  - 1.12.1
+  - 1.13
 ogre:
   - 1.10.12
 qt:

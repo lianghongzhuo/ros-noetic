@@ -31,8 +31,8 @@ packages_remove_from_deps:
 #   - ros-noetic-jsk-pcl-ros
 #   - ros-noetic-jsk-perception
 
-skip_existing:
-  - /homeL/liang/mambaforge/envs/ros_build/conda-bld/
+# skip_existing:
+#   - /homeL/liang/mambaforge/envs/ros_build/conda-bld/
 #   - https://conda.anaconda.org/lianghongzhuo/
 packages_select_by_deps:
   - desktop-full
