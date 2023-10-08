@@ -85,7 +85,7 @@ for arch in archs:
     num_pkgs_per_arch[arch] = 0
 
 for name, pkg in availability.items():
-    row = [name]
+    row = [f"[{name}](https://anaconda.org/{channel}/{name})"]
 
     versions = set()
     for arch in archs:
