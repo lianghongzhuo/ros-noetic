@@ -1,7 +1,7 @@
 gazebo:
   - '11'
 numpy:
-  - 1.24
+  - 1.26
 pcl:
   - 1.13
 ogre:
@@ -10,12 +10,6 @@ qt:
   - 5.15
 qt-main:
   - 5.15
-libopencv:
-  - 4.7
-graphviz:
-  - 7.0
-ffmpeg:
-  - 5.1.2
 cdt_name:  # [linux]
   - cos7   # [linux]
 

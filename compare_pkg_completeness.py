@@ -84,7 +84,15 @@ rows = []
 num_pkgs_per_arch = {}
 for arch in archs:
     num_pkgs_per_arch[arch] = 0
-
+with open("tmp.txt", "w") as f:
+    """
+    create a package list
+    """
+    for p in available_pkgs.keys():
+        if available_pkgs[p] is None:
+            continue
+        p = p.replace("_", "-")
+        f.write(f"  - {p}\n")
 for name, pkg in availability.items():
     row = [f"[{name}](https://anaconda.org/{channel}/{name})"]
 
